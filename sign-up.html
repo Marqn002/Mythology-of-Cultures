@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <h2>Sign Up Now!</h2>
+      
+    </header>
+    <section >
+      <div class="form-title">
+        <form style=" text-align:center ;" method="post" action="https://formdump.codeinstitute.net/">
+            <label for="title">Title</label>
+            <select id="title" required>
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="miss">Ms</option>
+                <option value="lord">Lord</option>
+                <option value="doctor">Doctor</option>
+            </select>
+            <br>
+            <label for="first-name">First Name</label>
+            <input type="text" id="fname" name="fname" required>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="lname" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" minlength="5" maxlength="15" required>
+            <br>
+            <label for="re-password">Confirm Password</label>
+            <input type="password" name="re-password" id="re-password" minlength="5" maxlength="15" required>
+            <br>
+            <button type="submit" style="text-align: center;">Submit</button>
+            <button type="reset" style="text-align: center;">Reset</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+        <p>Copyright © Gods</p>
+      </footer>
+  </body>
+</html>
