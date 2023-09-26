@@ -8,4 +8,4 @@ Different pages of the website:<br>
 Unfortunately I didn't give myself enough time to fill out the pages of the website other than the social media page and the form page.
 
 Problems: <br>
-One of the main problems I have is the fact that the CSS code does not show up on 
+One of the main problems I have is the fact that the CSS code does not show up on the github page.
